@@ -258,7 +258,7 @@ body {
 
 /* early-access css  */
 .early-access-parents {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 .early-access {
     margin: 0 auto;
@@ -270,7 +270,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 80px 0;
+    padding: 70px 0;
 
 }
 
@@ -297,3 +297,44 @@ body {
     background-color: #000000;
 }
 
+/* footer section css  */
+
+footer {
+    background-color: #001931;
+}
+
+.footer-parents {
+    margin: 0 auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.social-links p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.social-links a {
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.least-line {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 0;
+    font-weight: 400;
+}
