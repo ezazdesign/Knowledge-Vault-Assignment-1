@@ -38,6 +38,11 @@ body {
     color: black;
 }
 
+.nav-menu a:hover {
+    color: #30B868;
+}
+
+/* Button 1 Css  */
 .btn-1 {
     background-color: #30B868;
     padding: 12px 16px;
@@ -45,4 +50,84 @@ body {
     border: none;
     border-radius: 4px;
     font-weight: bold;
+    cursor: pointer;
 }
+
+.btn-1:hover {
+    background-color: #000000;
+}
+
+
+/* Hero section Css */
+
+.hero-section-parents {
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 674px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding-top: 100px;
+}
+
+.hero-section .early-access {
+    font-size: 16px;
+    color: #30B868;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.hero-section h1 .h1-color {
+    color: #30B868;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hero-btn button{
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 9px;
+  
+}
+
+.hero-btn .hero-btn-1:hover {
+    background-color: #000000;
+}
+
+.hero-btn .hero-btn-two {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 11px 15px;
+    color: #ffffff;
+    
+}
+
+.hero-btn .hero-btn-two:hover {
+    background-color: #30B868;
+}
+
