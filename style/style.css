@@ -61,7 +61,7 @@ body {
 /* Hero section Css */
 
 .hero-section-parents {
-    background-image: url('../assets/hero-bg.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.534)), url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,3 +131,65 @@ body {
     background-color: #30B868;
 }
 
+/* Notes Section Css  */
+
+.main-noets-section {
+    padding: 100px 0;
+}
+
+.note-header {
+    text-align: center;
+}
+
+.note-header h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.note-header p , .note-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+}
+
+.note-card-parents{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+.note-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #30B868;
+    max-width: 322px;
+    height: 300px;
+    gap: 16px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.note-card img {
+        width: 32px;
+        height: 32px;        
+}
+.note-card .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+}
+
+
+/* Second Brain Section  */
